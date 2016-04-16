@@ -64,6 +64,7 @@ namespace EmployeeDemo
             var employee = p.GetById(address.EmployeeId);
             Console.WriteLine("Id:" + employee.Id + " Name:" + employee.Name + " Email:" + employee.Email);
             Console.WriteLine("Street:" + address.Street + ", City:" + address.City + ", Country:" + address.Country + ", PIN:" + address.PIN);
+            Console.WriteLine("================================================================================");
             Console.ReadLine();
         }
     }
